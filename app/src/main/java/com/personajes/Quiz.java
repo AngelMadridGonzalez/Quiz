@@ -20,6 +20,7 @@ import com.personajes.util.HttpHandler;
 
 public class Quiz extends Activity {
 
+    //
     private TextView tvpregunta;
     private final String URL_WEBSERVICE = "http://www.laeradeltitan.com/getQuestion.php";
     protected void onCreate(Bundle savedInstanceState) {

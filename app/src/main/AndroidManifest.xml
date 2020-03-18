@@ -6,5 +6,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"></application>
+        android:theme="@style/AppTheme">
+
+        <!-- Con la  linea de arriba quitamos el actionBar-->
+        <activity android:name="com.personajes.MainActivity"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.personajes.Quiz"
+            android:screenOrientation="fullSensor">
+        </activity>
+
+    </application>
 </manifest>
