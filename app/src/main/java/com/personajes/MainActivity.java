@@ -1,4 +1,4 @@
-package com.java;
+package com.personajes;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
-import android.widget.TextView;
 
+import com.example.quizledt.R;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 

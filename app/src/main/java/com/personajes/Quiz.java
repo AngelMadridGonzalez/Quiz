@@ -1,4 +1,4 @@
-package com.java;
+package com.personajes;
 
 import android.app.Activity;
 import android.os.AsyncTask;
@@ -6,7 +6,17 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
+import com.example.quizledt.R;
+
 import java.util.HashMap;
+
+import com.personajes.bean.QuizBean;
+import com.personajes.dao.QuizDao;
+import com.personajes.util.HttpHandler;
+
+/**
+ * Created by Engueru on 02/06/2018.
+ */
 
 public class Quiz extends Activity {
 
@@ -23,7 +33,7 @@ public class Quiz extends Activity {
 
     public void cargarPreguntas(String param, String tag){
         Log.i("error", "cargarPreguntas");
-        HashMap<String, String> params= new HashMap<>();
+        HashMap<String, String> params= new HashMap<String, String>();
         params.put("url",URL_WEBSERVICE);
         params.put("tag",tag);
         params.put("id", param);
@@ -53,7 +63,7 @@ public class Quiz extends Activity {
             if (result.length() > 0) {
                 QuizDao qDAO = new QuizDao();
                 QuizBean bean = qDAO.getQuestion(result);
-                //tvpregunta.setText(bean.getDescription_answer()+"");
+                tvpregunta.setText(bean.getDescription_answer()+"");
             } else {
                 Log.i("error", "no cargaron los datos!");
             }

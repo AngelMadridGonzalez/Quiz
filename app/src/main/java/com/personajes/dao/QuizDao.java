@@ -1,4 +1,4 @@
-package com.java;
+package com.personajes.dao;
 
 import android.util.Log;
 
@@ -7,6 +7,12 @@ import com.google.gson.Gson;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import com.personajes.bean.QuizBean;
+
+/**
+ * Created by Engueru on 02/06/2018.
+ */
 
 public class QuizDao {
 
@@ -24,5 +30,4 @@ public class QuizDao {
         } catch (JSONException e) { e.printStackTrace(); }
         return null;
     }
-
 }

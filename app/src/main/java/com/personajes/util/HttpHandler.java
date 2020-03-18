@@ -1,4 +1,4 @@
-package com.java;
+package com.personajes.util;
 
 import android.util.Log;
 
@@ -19,8 +19,11 @@ import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
 
-public class HttpHandler {
+/**
+ * Created by asus on 18/11/2016.
+ */
 
+public class HttpHandler {
     private final String TAG = HttpHandler.class.getSimpleName();
     //private static final boolean debug = ( "1".equals(App.getContext().getResources().getString(R.string.DEBUG)) ) ? true : false;
 

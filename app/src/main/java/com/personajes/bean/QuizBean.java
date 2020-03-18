@@ -1,6 +1,10 @@
-package com.java;
+package com.personajes.bean;
 
 import com.google.gson.annotations.SerializedName;
+
+/**
+ * Created by Engueru on 02/06/2018.
+ */
 
 public class QuizBean {
 
