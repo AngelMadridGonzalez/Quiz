@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LEDT</string>
+    <string name="inicio">INICIO</string>
+    <string name="razas">RAZAS</string>
+    <string name="Quiz">QUIZ</string>
+    <string name="opciones">OPCIONES</string>
+    <string name="salir">SALIR</string>
+    <string name="atras">ATRÁS</string>
+    <string name="volumen">VOLUMEN</string>
+    <string name="vibracion">VIBRACIÓN</string>
+    <string name="efectos">EFECTOS</string>
+    <string name="khaedra">KHAEDRA</string>
+    <string name="alados">ALADOS</string>
+    <string name="ciudadela">CIUDADELA</string>
+    <string name="nurbal">NURBAL</string>
+    <string name="inuit">INUIT</string>
+    <string name="kurai">KURAI</string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="si">SI</string>
+    <string name="no">NO</string>
+</resources>

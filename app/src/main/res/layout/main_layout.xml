@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_inicio"
+    tools:context=".MainActivity"
+    android:clickable="false">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inicio"
+        android:id="@+id/inicio_inicio"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:nestedScrollingEnabled="false"
+        android:width="150dp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/razas"
+        android:id="@+id/inicio_razas"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/inicio_inicio"
+        android:layout_alignLeft="@+id/inicio_inicio"
+        android:layout_alignStart="@+id/inicio_inicio"
+        android:width="150dp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Quiz"
+        android:id="@+id/inicio_quiz"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/inicio_razas"
+        android:layout_alignLeft="@+id/inicio_razas"
+        android:layout_alignStart="@+id/inicio_razas"
+        android:width="150dp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opciones"
+        android:id="@+id/inicio_opciones"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/inicio_quiz"
+        android:layout_alignLeft="@+id/inicio_quiz"
+        android:layout_alignStart="@+id/inicio_quiz"
+        android:width="150dp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salir"
+        android:id="@+id/inicio_salir"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/inicio_opciones"
+        android:layout_alignLeft="@+id/inicio_opciones"
+        android:layout_alignStart="@+id/inicio_opciones"
+        android:width="150dp"
+        android:onClick="onClick"/>
+
+</RelativeLayout>

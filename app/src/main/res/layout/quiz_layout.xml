@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_inicio"
+    android:clickable="false">
+
+    <TextView
+        android:id="@+id/TvQuizPegunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:text="PREGUNTA" />
+
+    <Button
+        android:id="@+id/BtnQuizSi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/si"
+        android:layout_below="@+id/TvQuizPegunta"
+        android:layout_alignLeft="@+id/BtnQuizNo"
+        android:layout_alignStart="@+id/BtnQuizNo"
+        android:layout_marginTop="204dp" />
+
+    <Button
+        android:id="@+id/BtnQuizNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:text="@string/no"
+        android:layout_below="@+id/BtnQuizSi"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_atras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/atras"
+        android:onClick="onClick"/>
+</RelativeLayout>
