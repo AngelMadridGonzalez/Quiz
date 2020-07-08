@@ -2,28 +2,27 @@ package com.personajes.entities;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
-import androidx.room.ForeignKey;
 import androidx.room.PrimaryKey;
 
 @Entity
-public class Pregunta {
+public class Respuesta {
 
     @PrimaryKey
-    @ColumnInfo(name = "id_pregunta")
-    public int id;
+    @ColumnInfo(name = "id_respuesta")
+    public int idRespuesta;
 
     //@ForeignKey()
-    //public int idRespuesta;
+    //public int idGrupo;
 
-    @ColumnInfo(name = "texto_pregunta")
+    @ColumnInfo(name = "texto_respuesta")
     public String textoRespuesta;
 
-    public int getId() {
-        return id;
+    public int getIdRespuesta() {
+        return idRespuesta;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setIdRespuesta(int idRespuesta) {
+        this.idRespuesta = idRespuesta;
     }
 
     public String getTextoRespuesta() {
