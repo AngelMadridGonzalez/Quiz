@@ -14,6 +14,12 @@ public class Grupo {
     @ColumnInfo(name = "texto_grupo")
     public String textoGrupo;
 
+
+    public Grupo(int idGrupo, String textoGrupo) {
+        this.idGrupo = idGrupo;
+        this.textoGrupo = textoGrupo;
+    }
+
     public int getIdGrupo() {
         return idGrupo;
     }
