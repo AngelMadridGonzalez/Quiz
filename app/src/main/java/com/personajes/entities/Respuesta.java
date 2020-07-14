@@ -17,6 +17,11 @@ public class Respuesta {
     @ColumnInfo(name = "texto_respuesta")
     public String textoRespuesta;
 
+    public Respuesta(int idRespuesta, String textoRespuesta) {
+        this.idRespuesta = idRespuesta;
+        this.textoRespuesta = textoRespuesta;
+    }
+
     public int getIdRespuesta() {
         return idRespuesta;
     }
