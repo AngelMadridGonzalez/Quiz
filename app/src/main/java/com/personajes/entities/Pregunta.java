@@ -18,6 +18,12 @@ public class Pregunta {
     @ColumnInfo(name = "texto_pregunta")
     public String textoRespuesta;
 
+
+    public Pregunta(int id, String textoRespuesta) {
+        this.id = id;
+        this.textoRespuesta = textoRespuesta;
+    }
+
     public int getId() {
         return id;
     }
